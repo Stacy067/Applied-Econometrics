@@ -5,7 +5,7 @@
 /*-------------------------------------------------*/
 
 use 'C:/Users/rlatj/Desktop/미분/grunfeld.dta'
-
+ 
 **select only GE and WE (two firms) and check for a pooled parameter
 keep if(i==3|i==8)
 gen d=(i==8)
